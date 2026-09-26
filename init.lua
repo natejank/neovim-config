@@ -471,19 +471,19 @@ do
   require('mini.comment').setup {
     -- Module mappings. Use `''` (empty string) to disable one.
     mappings = {
-      -- Toggle comment (like `gcip` - comment inner paragraph) for both
+      -- Toggle comment (like `tcip` - comment inner paragraph) for both
       -- Normal and Visual modes
       comment = 'tc',
 
       -- Toggle comment on current line
-      comment_line = '<leader>c',
+      comment_line = '<C-c>',
 
       -- Toggle comment on visual selection
-      comment_visual = '<leader>c',
+      comment_visual = '<C-c>',
 
-      -- Define 'comment' textobject (like `dgc` - delete whole comment block)
+      -- Define 'comment' textobject (like `dc` - delete whole comment block)
       -- Works also in Visual mode if mapping differs from `comment_visual`
-      textobject = 'gc',
+      textobject = 'c',
     },
   }
 
