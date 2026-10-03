@@ -483,7 +483,7 @@ do
 
       -- Define 'comment' textobject (like `dc` - delete whole comment block)
       -- Works also in Visual mode if mapping differs from `comment_visual`
-      textobject = 'c',
+      textobject = '/',
     },
   }
 
